@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- main_screen -->
+    <string name="app_name">K-Manager</string>
+    <string name="otherRomsBeta">Other Roms</string>
+    <string name="changelog">Changelog</string>
+    <string name="no_changelog_available">No changelog available</string>
+    <string name="new_version_available">New Version of K-Manager is Available</string>
+    <string name="download">Download</string>
+    <string name="rom_manager">Rom Manager</string>
+    <string name="chooseRom">Select your Rom</string>
+    <string name="selectRomToast">Please Select Your Rom</string>
+    <string name="downloading">Downloading</string>
+    <string name="joinTelegram">I see you\'ve got Telegram installed. \nSo join the K-Klock Official Group for support and stuff.</string>
+
+    <string name="subs_not_installed">Substratum not Installed!</string>
+    <string name="subs_required">This application requires the substratum theming engine to be useful. Do you want to download substratum?</string>
+
+
+
+    <!-- Apk building -->
+    <string name="apkBuilderLoading">Building Apk, Please Wait&#8230;</string>
+    <string name="decompiling">Decompiling Apk&#8230;</string>
+    <string name="signing">Signing K-Klock&#8230;</string>
+    <string name="cleaning_files">Cleaning files&#8230;</string>
+    <string name="installing_apk">Installing K-Klock&#8230;</string>
+    <string name="open_in_substratum">Open K-Klock in Substratum</string>
+    <string name="lucky_patcher_message">Hello! I see that you are using Lucky Patcher or another app that could be used for piracy. Support developers by uninstalling these and paying for apps.
+    </string>
+    <string name="rom_files_updated">It looks like you might have had a system update since the last time you used the Other Roms option.
+        Do you want to delete the system files K-Manager uses and extract them again?
+    </string>
+    <string name="use_ones_have">No, use the ones I have</string>
+    <string name="adb_copy_sysui">You don\'t seem to have the necessary file and/or permission for this to work properly.
+                                Run this ADB command through your PC instead.</string>
+    <string name="files_for_header_404">Your rom files don\'t contain the  necessary files for Qs Header Image to work?
+                                    Do you want to switch to Other Roms option and extract the necessary file?
+    </string>
+
+    <!-- other rom settings -->
+    <string name="hide_stock">Hide Stock Clock</string>
+    <string name="make_dynamic">Make a Dynamic Clock (Nougat)</string>
+    <string name="rom_info">Rom Information</string>
+    <string name="rom_name_hint">Enter your Rom Name here</string>
+    <string name="rom_version_hint">Enter your Android Version here (Nougat or Oreo)</string>
+    <string name="files_not_found">You don\'t have the necessary Rom files. Run and test K-Klock with Other Roms at least once!</string>
+    <string name="error_sending_zip">Error sending zip, try again later</string>
+    <string name="or_settings_title">Other Roms Settings</string>
+    <string name="send_files">Submit Other Rom files to K-Manager</string>
+
+
+    <!-- clock fragment -->
+    <string name="error_adding_new_value">Nothing was saved, you must have two values inputted</string>
+    <string name="cc_manager">Clock Color Manager</string>
+    <string name="cf_manager">Clock Format Manager</string>
+    <string name="add_color_name_title">Add a Custom Color</string>
+    <string name="add_color">Add Colors</string>
+    <string name="add_format">Add Formats</string>
+    <string name="add_color_value_hint">Enter color rgb value here. Eg. #00ff00</string>
+    <string name="add_color_name_hint">Enter color name here. Eg. Dark Blue</string>
+    <string name="add_format_name_title">Add a Custom Format</string>
+    <string name="add_format_value_hint">Enter java clock format. Eg. EEE HH:mm</string>
+    <string name="add_format_name_hint">Enter color format name here. Eg. Abbreviated Day</string>
+    <string name="included_colors">Included Colors</string>
+    <string name="added_colors">Added Colors</string>
+    <string name="included_formats">Included Formats</string>
+    <string name="added_formats">Added Formats</string>
+
+    <!-- icons fragment -->
+    <string name="blackout_lockscreen">Blackout the Lockscreen StatusBar</string>
+    <string name="lockscreen_statusbar_size">Lockscreen StatusBar Height</string>
+    <string name="hide_notifications">Hide Notification Icons</string>
+    <string name="theme_statusbar_color">Theme StatusBar and Stock Clock Color</string>
+    <string name="si_manager">StatusBar Icon Color Manager</string>
+    <string name="si_desc">The light statusbar icon colors are linked to the main clock color,
+        so changing clock color will change those.\n\nYou can add dark statusbar icon colors here
+    </string>
+    <string name="hide_icons_warning">
+        Hiding icons on lockscreen result in more icons appearing or sometimes all of them disappearing.
+        You can use the SystemUI Tuner app from the playstore to backup/restore your icon configuration.
+        You have been and will continue being warned, so I take no responsibility for any icons I may cause.
+    </string>
+    <string name="statbar_icon_options">StatusBar Icons Options</string>
+    <string name="hide_icons_lockscreen">Hide StatusBar Icons on Lockscreen</string>
+    <string name="custom_icon_statbar">Add Custom Icon to StatusBar</string>
+    <string name="leave_wifi_networks">Leave Battery, Wifi and Network Icons</string>
+
+
+
+    <!-- statusbar fragment -->
+    <string name="network_icons_left">Move Network Icons to the Left</string>
+    <string name="notification_icons_right">Move Notification Icons to the Right</string>
+    <string name="ampm_stock_clock">Show Am/Pm in Stock Clock</string>
+    <string name="hide_network_indicators">Hide Network Signal Indicators</string>
+    <string name="clock_size">StatusBar Clock Size</string>
+    <string name="enter_text_hint">Enter your text here</string>
+    <string name="clock_hideable_warning">If your Rom already has statusbar customization like changing its position/stuff then don\'t use this.
+            It will cause a SystemUI crash&#8230;
+    </string>
+    <string name="select_statbar_bg">Select StatusBar Background Color</string>
+    <string name="black">Black</string>
+    <string name="black_transparent">Black 25% Transparent</string>
+    <string name="white">White</string>
+    <string name="other_specify">Other(Specify Below)</string>
+    <string name="statusbar_options">StatusBar Options</string>
+    <string name="change_statusbar_bg">Change StatusBar Color</string>
+    <string name="clock_hide_launcher">Make Clock Hideable in Launchers</string>
+    <string name="text_on_statusbar">Display Custom Text on StatusBar</string>
+    <string name="text_on_lockscreen">Only show on Lockscreen</string>
+
+
+
+    <!-- misc fragment -->
+    <string name="minit_disclaimer">
+        This option does NOT install 3minit battery mod. All it does is make sure that there are no conflicts between K-Klock and 3 Minit.\n
+        You should only have this option selected if you have 3minit already flashed. \n\n
+        <b>This will break your Rom if you don\'t have 3 Minit installed.</b>
+    </string>
+    <string name="misc_addon">Misc. Add-Ons</string>
+    <string name="qs_tile_no">Number of Qs Tiles</string>
+    <string name="qs_tile_text">Hide Qs Tile Title</string>
+    <string name="rounded_recents">Rounded Recents</string>
+    <string name="qs_background">Add Custom Qs Background</string>
+    <string name="minit_compatibility">Make compatible with 3 Minit</string>
+    <string name="not_png_error_message">The image you have chosen is not a png. Convert it to a png and try again</string>
+    <string name="qs_header">Add Custom Qs Header</string>
+    <string name="heads_up_timeout">Heads-up Timeout</string>
+    <string name="hide_lockscreen_clock">Hide Lockscreen Clock</string>
+
+
+    <!-- welcome activity -->
+    <string name="how_to_use">How to use</string>
+    <string name="screen1_1">Select your Rom and any other settings in K-Manager.</string>
+    <string name="screen1_2">Then tap the yellow build button to get a K-Klock theme with that configuration!</string>
+    <string name="hscreen2_title">What the Clock Style option means in Substratum</string>
+    <string name="hscreen2_1">The first part of the clock style option specifies how the clock should behave.</string>
+    <string name="hscreen2_2">You can choose whether the clock should appear on the lockscreen or not. </string>
+    <string name="hscreen2_3">Stock Clock or Dynamic Clock are hidden on the lockscreen without needing to select anything. </string>
+    <string name="hscreen2_4">These two are different because they make the clock dynamic, ie. it changes color against white backgrounds. </string>
+    <string name="hscreen3_title">Help and Support</string>
+    <string name="hscreen3_1">If you\'re still confused about anything check the navdrawer! </string>
+    <string name="hscreen3_2">You can also check the latest Changelog or check if there\'s an update.</string>
+
+    <!-- settings activity -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="delete_apk_error">Error deleting apks: </string>
+    <string name="delete_apk_success">All Apk\'s Cleared</string>
+    <string name="cleared_saved">Saved Values Cleared</string>
+    <string name="install_silently">Install K-Klock Apk\'s Silently after building</string>
+    <string name="set_dark_theme">Set Dark Theme</string>
+    <string name="sync_files_desc">Sync rom files automatically when K-Manager is opened</string>
+    <string name="delete_saved_cfs">Delete Saved Clock Formats and Colors</string>
+    <string name="delete_kklock_apks">Delete all built K-Klock Apks</string>
+    <string name="alt_qs_header">Alternate Qs Header</string>
+    <string name="alt_qs_header_desc">Use a different method for showing qs header images.</string>
+
+    <!-- Services -->
+    <string name="syncing_roms">Syncing Rom Files</string>
+    <string name="finished_syncing">Finished syncing</string>
+    <string name="sync_files">Sync Rom Files</string>
+
+    <string name="hide_icon_id">K-Manager Hide Icon Service</string>
+    <string name="hide_icon_name">Hide Statusbar Icons</string>
+    <string name="hide_icon_desc">K-Manager\'s notification channel to keep hide icons service running in the background</string>
+    <string name="hide_icon_notif_message">Hide icons service is running in the background</string>
+
+
+
+    <!-- navdrawer and menu -->
+    <string name="action_settings">Donate</string>
+    <string name="version">version</string>
+    <string name="about_desc1">K-Manager builds the substratum app - K-Klock.</string>
+    <string name="about_desc2">You can customize your statusbar clock as well as other UI elements in your phone!</string>
+    <string name="about_desc3">Github Sources:</string>
+
+    <string name="telegramItem">Telegram Group</string>
+    <string name="faqsTitle">Help and FAQ\'s</string>
+    <string name="faqsItem">FAQ\'s</string>
+    <string name="otherromsItem">Other Rom\'s Help</string>
+    <string name="qsbgItem">Custom Qs Backgrounds</string>
+    <string name="leftnetworkItem">Left Network Indicators</string>
+    <string name="usefullLinksTitle">Useful Links</string>
+    <string name="rgbItem">RGB Colors Chart</string>
+    <string name="formatsItem">Clock Formats Guide</string>
+    <string name="settings">Settings</string>
+    <string name="updateItem">New Version Available</string>
+    <string name="updateDesc">Tap to Install</string>
+    <string name="changelogItem">View Changelog</string>
+    <string name="aboutItem">About &amp; Licenses</string>
+
+    <!-- pro strings -->
+    <string name="pro">PRO</string>
+    <string name="pro_message">This is a K-Manager Pro feature. If you want to use it upgrade to K-Manager Pro.</string>
+    <string name="pro_title">Pro Feature</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="upgrade_to_pro">Upgrade to Pro</string>
+    <string name="upgrade_to_pro_desc">Support the developer and get K-Manager Pro with additional features</string>
+
+
+    <!-- other generic stuff -->
+    <string name="cancel">Cancel</string>
+    <string name="okay">Okay</string>
+    <string name="thanks">Thanks</string>
+    <string name="not_today">Not Today</string>
+    <string name="remind_me_later">Remind me Later</string>
+    <string name="enable">Enable</string>
+    <string name="important">IMPORTANT</string>
+    <string name="enjoy">Enjoy</string>
+    <string name="warning">Warning :)</string>
+    <string name="copy_to_clipboard">Copy to Clipboard</string>
+    <string name="saved_clipboard">Saved to clipboard</string>
+    <string name="save">Save</string>
+    <string name="no">No</string>
+
+    <string name="adb_required">Adb Permissions Required</string>
+    <string name="adb_how_to_run">You need to grant K-Manager permissions through adb for this function to work.
+        Run this command through ADB on your PC.
+    </string>
+
+
+
+
+
+
+
+
+
+</resources>
