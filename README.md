@@ -25,9 +25,9 @@
 # Get Credit
 
 * Go to arrays.xml and add your name to the translators array!
-* Like <item>Your Name</item>
+* Like `<item>Your Name</item>`
 * You can add a href with a link if you want. 
-* For example <item><a href="link">Your name</a><item>
+* For example `<item><a href="link">Your name</a><item>`
 * And thanks for helping! :)
   
 
