@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    
+    <string name="clock">Clock</string>
+    <string name="icons">Icons</string>
+    <string name="statusbar">StatusBar</string>
+    <string name="misc">Misc</string>
 
     <!-- main_screen -->
     <string name="app_name">K-Manager</string>
