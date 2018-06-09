@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="clock">Hodiny</string>
+    <string name="icons">Ikony</string>
+    <string name="statusbar">Stavová lišta</string>
+    <string name="misc">Různé</string>
+    
     <!-- main_screen -->
     <string name="app_name">K-Manager</string>
     <string name="otherRomsBeta">Ostatní ROM</string>
