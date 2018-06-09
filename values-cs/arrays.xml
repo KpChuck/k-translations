@@ -80,7 +80,8 @@
         <item>Malý den, velké hodiny</item>
     </string-array>
 
-    <string-array name="překladatelé">
+    <string-array name="translators">
+        <item>Lukas Novotny<item>
 
     </string-array>
 
